@@ -17,8 +17,6 @@
 - **Notification**:
   - A message or alert sent to a user, often indicating actions like new followers, likes on Pins, etc.
 
-- **FeedItem**:
-  - A wrapper for Pins displayed in a user’s feed, often ranked by relevance score.
 
 - **PinImage (Value Object)**:
   - A value object associated with a Pin that contains metadata related to the image, such as its resolution or format.
@@ -29,17 +27,11 @@
 - **User Profile**:
   - Contains personal information about a user, such as their avatar, bio, and other settings.
 
-- **Tags**:
-  - Keywords associated with Pins to make them easier to search for or categorize.
 
-- **Relevance Score**:
-  - A metric used to determine how relevant a Pin is to a user, often based on user behavior, interactions, or preferences.
 
 - **Upload Status**:
   - Indicates the state of an image being uploaded, such as "pending," "successful," or "failed."
 
-- **Multiplicity**:
-  - The cardinality of relationships between entities, typically expressed as 1-to-many, many-to-one, etc.
 
 - **Aggregate**:
   - A cluster of domain objects treated as a single unit. For example, a `Board` and its associated `Pins` can be considered an aggregate.
@@ -47,8 +39,4 @@
 - **Value Object**:
   - An object that holds attributes but has no identity. Examples include the `PinImage` value object, which contains metadata but doesn’t have its own identity apart from the Pin.
 
-- **Service**:
-  - A domain service contains business logic that doesn’t naturally fit within an entity or value object, such as the `PinService` for creating, deleting, and managing Pins.
 
-- **Context**:
-  - A boundary around a set of related concepts in a domain. For example, the `UserContext` encapsulates everything related to users, while the `BoardContext` handles boards and pins.
