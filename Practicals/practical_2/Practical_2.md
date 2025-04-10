@@ -1,7 +1,6 @@
 # Architecture Charactersitic Worksheet for Road worrior 
 
-![Alt text](<Screenshot 2568-03-10 at 11.14.52 PM.png>)
-
+![alt text](practical-2.png)
 ### 1. Driving Characteristic: Scalability 
 (A function of system capacity and growth over time; as the number of users or requests increase in the system, responsiveness, performance, and error rates remain constant )
 
